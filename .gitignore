@@ -1,5 +1,6 @@
 
+.idea/
 *.un~
-*.swp
 *.html~
+*.swp
 *.css~

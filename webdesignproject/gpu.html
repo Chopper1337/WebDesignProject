@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>GPU</title>
+		<link rel="stylesheet" type="text/css" href="css/theme.css">
+		<link rel="icon" href="images/favicon.ico">
+	</head>
+	<body>
+		<header>
+			<!-- Navigation Bar -->
+			<iframe src="navbar.html"></iframe>
+		
+			<!-- Page title -->
+			<h1 class="mainTitle">Graphics Processing Units:</h1>
+		</header>
+		<!-- "Go to top" button -->
+		<button onclick="window.location.href = 'gpu.html';" id="myBtn" title="Go to top">Go to top</button>
+		
+		<main>
+			<!-- GPU paragraph -->
+			<h2 class="subTitle">What is a GPU?</h2>
+			<p>A graphics processing unit (GPU) is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display device. GPUs are used in embedded systems, mobile phones, personal computers, workstations, and game consoles.
+			Although GPU's are usually used by consumers for gaming because of their extremely fast graphics processing power, they can also be used for compute based tasks such as AI, media upscaling, or "mining" crypto-currency.
+			This is because both regular graphics rendering, such as in games, and AI, upscaling and crypto-currency mining all use similar types of equations which a CPU would struggle with while a GPU can fly through them.</p>
+			
+			
+			<div class="divCenterAlign">
+				<!-- Table title -->
+				<p>This table contains some examples of the graphics cards on the market today along with their prices.</p>
+				<!-- GPU Table -->
+				<table id="imagetablegpu">
+					<tr>
+						<th id="orangeBG">GPU Vendor</th>
+						<th class="greenBG">Image</th>
+						<th id="otherBG">Price</th>
+					</tr>
+					<tr>
+						<th id="otherBG1" >AMD</th>
+						<td class="redBG" ><img width="300" title="AMD Radeon 5700XT" src="images/amd.png"></td>
+						<td id="greenBG">€350</td>
+					</tr>
+					<tr>
+						<th id="otherBG2" >nVidia</th>
+						<td class="greenBG" ><img width="300" title="nVidia RTX2080ti" src="images/nvidia.png"></td>
+						<td class="redBG">€1000</td>
+					</tr>
+				</table>
+				<br>
+				<p>Here's a graph of the frames per second of graphics cards from 2008 to 2014 in the game "Crysis".</p>
+				<img src="images/fps.jpg" title="GPU FPS">		
+			</div>
+			<p>Things to note when buying a GPU:<br></p>
+				<ol>
+					<li>GPU's can comfortably operate and up to 80 degrees celcius</li>
+					<li>You can't compare clock speeds between cards of different brands (AMD or nVidia)</li>
+					<li>Some GPUs will be faster than others in different workloads even at the same price-point</li>
+					<li>If a GPU is to be used for gaming, don't get caught up too much in comparisons between different models of the same GPU</li>
+				</ol>
+		</main>
+		<footer>
+			<!-- Footer Bar -->
+			<iframe src="footer.html"></iframe>
+		</footer>
+	</body>
+</html>

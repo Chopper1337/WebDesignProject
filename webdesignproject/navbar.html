@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Navigation Bar</title>
+		<!-- Internal styling -->
+		<style>
+			a,p,label{
+				font-size: 20px;
+				font-family: "Lucida Sans";
+			}
+			
+			a:hover{
+				color: #2F93FF;
+			}
+			
+			/* Properties for the navigation bar, full width of viewport, no scrollbar etc. */
+			.navbar{
+				width: 100%;;
+				background-color: white;
+				opacity: 75%;
+			}
+
+			/* Properties for the links in the navbar, text is center aligned within its table, bold and font colour black*/
+			.navlink {
+				color: black;
+				font-weight: bold;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Navigation bar -->
+		<hr>
+		<table class="navbar">
+			<tr>
+				<th><a class="navlink" href="index.html" target="_top" title="Home page">Home</a></th>
+				<th><a class="navlink" href="cpu.html" target="_top" title="About the CPU">CPU</a></th>
+				<th><a class="navlink" href="gpu.html" target="_top" title="About the GPU">GPU</a></th>
+				<th><a class="navlink" href="hdd.html" target="_top" title="About storage">Storage</a></th>
+				<th><a class="navlink" href="contact.html" target="_top">Contact Us</a></th>
+			</tr>
+		</table>
+		<hr>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background: #171717;
+}
+
+.comment{
+    color: #878787;
+}
+
+.selector{
+    color: #509e29;
+}
+
+.subselector{
+    color: #298b9e;
+}
+
+.property{
+    color: #9e2929;
+}
+
+.value{
+    color: white;
+}
+
+.pos{
+    width:500px;
+    height:500px;
+    margin:0 auto;
+    position:absolute;
+    left:50%;
+    margin-left:-250px;
+}

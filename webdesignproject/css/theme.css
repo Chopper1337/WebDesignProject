@@ -1,0 +1,141 @@
+/* CSS for the body of the page, sets background properties */
+body{
+    background-size: 100%;
+    background-image: url("../images/background.jpg");
+    background-color: blue;
+    font-family: "Lucida Sans";
+}
+
+/* Properties for links, paragraphs and labels */
+a,p,label,ul,ol{
+    font-size: 20px;
+}
+
+/* Properties for paragraphs and label */
+p, label,ul,ol{
+    color: white;
+    text-shadow: 2px 2px 1px black
+}
+
+/* Hovering on a link */
+a:hover{
+    color: #2F93FF;
+}
+
+/* Properties for an iFrame, such as the YouTube video */
+iframe{
+    border:0;
+    width: 100%;
+}
+
+/* Main title for a page */
+.mainTitle{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+    font-family: Impact;
+    width: 100%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Sub-title for a topic on a page*/
+.subTitle{
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+    font-family: Impact;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.rightFloatImage{
+	float: right;
+}
+
+.divCenterAlign{
+	text-align:center;
+}
+
+/* ID for GPU table CSS */
+#imagetablegpu{
+     background-color: yellow;
+     border-color: #2f93ff #2526ff;
+     border-width: 20px;
+     border-style: groove;
+     padding: 10px;
+     margin: 80px;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+
+#orangeBG{
+	background-color:orange;
+}
+
+.greenBG{
+	background-color:lime;
+}
+
+.redBG{
+	background-color:red;
+}
+
+#otherBG{
+	background-color:#b8860b;
+}
+
+#otherBG1{
+	background-color:#8b0000;
+}
+#otherBG2{
+	background-color:#006400;
+}
+
+/* ID for HDD table CSS */
+#imagetablehdd {
+    background-color: grey;
+    border: 5px solid blue;
+    border-width: 5px;
+    padding: 10px;
+    margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 540px;
+}
+
+
+/* ID for Google Maps div CSS */
+#gMapsDiv {
+	margin-left: auto;
+	margin-right: auto;
+	max-width:100%;
+	overflow:hidden;
+	color:red;
+	width:500px;
+	height:520px;
+}
+
+#gmapsiFrame{
+	border: none;
+	width:100%;
+	height: 500px;
+}
+
+/* ID for home page intro paragraph CSS */
+#introParagraph {
+	text-align: center;
+	width: 100%;
+}
+
+/* ID for YT video Div CSS */
+#ytVideoDiv{
+	width: 60%;
+	margin-left:20%;
+}
+
+/* CSS for a button fixed at bottom middle of view */
+button{
+    position: fixed;
+    left: 48%;
+    bottom: 0%;
+}
