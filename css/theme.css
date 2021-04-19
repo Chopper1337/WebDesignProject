@@ -4,6 +4,8 @@ body{
     background-image: url("../images/background.jpg");
     background-color: blue;
     font-family: "Lucida Sans";
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 /* Properties for links, paragraphs and labels */
